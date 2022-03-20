@@ -25,8 +25,15 @@
 							//{
 								//$_SESSION['status'] = 'true';
 								//setcookie('status', 'true', time()+3600, '/');
-								$user=['myemployid'=>$myemployid, 'myusername'=>$myusername, 'password'=>$password, 'myemail'=>$myemail];
+								//$user=['myemployid'=>$myemployid, 'myusername'=>$myusername, 'password'=>$password, 'myemail'=>$myemail];
+								$user = $myusername."|".$password."|".$myemail;
 								$_SESSION['user']= $user;
+								$file=fopen("../Model/user.txt", 'w');
+								fwrite($file, $user);
+								fclose($file);
+
+								
+
 								header('location: ../Views/Login.php');
 							}else{
 								echo "Null submission";

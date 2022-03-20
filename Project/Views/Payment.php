@@ -55,11 +55,12 @@
                 <option value="">2500</option>
                 <option value="">2900</option></td>
         </tr>
-              
+        <td>payment through this Num: 01856723575</td>
            </table>
              </form> 
          </td>
        </tr>
+       
     </table>
     <table height="10%" width = "100%" border = "1px">
         <tr height = "50px">

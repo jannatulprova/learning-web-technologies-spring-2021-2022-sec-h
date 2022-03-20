@@ -45,7 +45,6 @@
 					<ul>
 						<li><a href="Profile.php">Profile</a></li>
 						<li><a href="Edit_Profile.php">Edit Profile</a></li>
-						<li><a href="ChangeProfilePicture.php">Change Profile Picture</a></li>
 						<li><a href="ManagementDashboard.php">Dashboard</a></li>
 						<li><a href="Payment.php">See Payment</a></li>
 						<li><a href="Catagories.php">See Catagories</a></li>
