@@ -5,10 +5,10 @@
 
    if(isset($_REQUEST['submit'])){
       
-      if($_REQUEST['username'] == null){
+      if($_REQUEST['myname'] == null){
          $unameError = "username is empty....";
       }else{
-         $username = $_REQUEST['username'];
+         $username = $_REQUEST['myname'];
          echo "Success";
       }
    }
@@ -19,7 +19,7 @@
 	<title></title>
 </head>
 <body>
-    <form method="" action="POST">
+    <form method="POST" action="">
   <tr> 
   	 <td>Name</td><br>
   	 <td><input type="text" name="myname" value=""> </td><br>
